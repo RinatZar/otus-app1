@@ -5,6 +5,7 @@ DIR1='/home/otus-app1/02-static.yml'
 DIR2='/etc/netplan/'
 
 #Копируем конфиг 
+sudo -s
 cp $DIR1 $DIR2
 echo "файл конфига 02-static.yml скопирован в $DIR"
 
