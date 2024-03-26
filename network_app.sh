@@ -12,8 +12,8 @@ echo "файл конфига 02-static.yml скопирован в $DIR"
 netplan --debug generate
 netplan apply
 ip -4 a
-
-
+read -p "Нажмите enter для инсталляции nginx"
+apt install nginx
 
 
 #Перезапускаем сервис networkd
