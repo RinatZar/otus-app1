@@ -1,18 +1,15 @@
 #!/bin/bash
 
-DIR='/etc/nginx/sites-available/'
+DIR='/etc/nginx/sites-enabled/'
 DIR1='/home/otus-app1/default'
-DIR2='/etc/nginx/sites-available/'
+DIR2='/etc/nginx/sites-enabled/'
 
 #Копируем конфиг 
-
-sudo cp $DIR1 $DIR2
+cp $DIR1 $DIR2
 echo "файл конфига default скопирован в $DIR"
-
-nginx -s reload
-
+systemctl reload nginx
 if [ $? -eq 0 ]; then
-          echo "Сервис Nginx настроен и готов к работе!"
+          echo "Nginx запущен, готов к работе"
 else
           echo "Возникла ошибка"
 fi
