@@ -12,7 +12,8 @@
    bash network_static.sh
    ``` 
 4. Установить Nginx.
-   ```bash apt install nginx```
+   ```bash
+   apt install nginx```
 6. Запустить скрипт настройки Nginx
 	```bash
  bash nginx_script.sh```
