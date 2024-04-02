@@ -16,6 +16,6 @@
    apt install nginx
    ```
 5. Запустить скрипт настройки Nginx.
-	```bash
+```bash
  bash nginx_script.sh
- ```
+```
