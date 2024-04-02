@@ -3,12 +3,14 @@
 # Установка NGINX
 sudo apt update
 sudo apt install nginx -y
-echo "nginx установлен"
+
 
 # Установка nginx-exporter
 sudo apt install prometheus-nginx-exporter -y
-echo "nginx-exporter установлен"
+
 
 # Установка node-exporter
 sudo apt install prometheus-node-exporter -y
+echo "nginx установлен"
+echo "nginx-exporter установлен"
 echo "node-exporter установлен"
