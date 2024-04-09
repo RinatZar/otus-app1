@@ -16,3 +16,13 @@ if [ $? -eq 0 ]; then
 else
           echo "Возникла ошибка"
 fi
+
+# Настройка filebeat
+cp /home/otus-app1/filebeat.yml /etc/filebeat/
+systemctl daemon-reload
+systemctl restart filebeat
+if [ $? -eq 0 ]; then
+          echo "filebeat запущен, готов к работе"
+else
+          echo "Возникла ошибка, filebeat"
+fi
