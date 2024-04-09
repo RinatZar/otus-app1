@@ -14,3 +14,7 @@ sudo apt install prometheus-node-exporter -y
 echo "nginx установлен"
 echo "nginx-exporter установлен"
 echo "node-exporter установлен"
+
+#Установить filebeat
+dpkg -i /home/otus/*.deb -y
+echo "filebeat установлен"
