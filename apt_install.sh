@@ -16,5 +16,5 @@ echo "nginx-exporter установлен"
 echo "node-exporter установлен"
 
 #Установить filebeat
-dpkg -i /home/otus/*.deb
+dpkg -i /home/otus/filebeat-8.9.1-amd64.deb
 echo "filebeat установлен"
