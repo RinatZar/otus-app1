@@ -11,11 +11,11 @@
     ```bash
    bash network_static.sh
    ``` 
-4. Установить Nginx, prometheus-nginx-exporter, nano 
+4. Установить Nginx, prometheus-nginx-exporter, prometheus-node-exporter, nano 
    ```bash
    bash apt_install.sh
    ```
-5. Запустить скрипт настройки Nginx.
+5. Запустить скрипт настройки Nginx, filebeat.
    ```bash
-    bash nginx_script.sh
+    bash script.sh
    ```
