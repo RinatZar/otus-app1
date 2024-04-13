@@ -1,4 +1,4 @@
-![alt text]([http://url/to/img.png](https://github.com/RinatZar/otus-app1/blob/main/sch.png))
+![alt text](https://github.com/RinatZar/otus-app1/blob/main/sch.png)
 # otus-app1. Инструкция по восстановлению
 1. Установить git.
    ```bash
